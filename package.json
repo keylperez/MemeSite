@@ -1,0 +1,26 @@
+{
+  "name": "memesite",
+  "version": "1.0.0",
+  "description": "Practice grid, flex and layout",
+  "default": "index.html",
+  "scripts": {
+    "compile:scss": "node-sass src/sass/main.scss src/css/style.css",
+    "watch:scss": "node-sass src/sass/main.scss src/css/style.css -w",
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keylperez/MemeSite.git"
+  },
+  "author": "keylperez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keylperez/MemeSite/issues"
+  },
+  "homepage": "https://github.com/keylperez/MemeSite#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "parcel": "^2.0.0-beta.2"
+  }
+}

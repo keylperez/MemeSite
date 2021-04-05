@@ -1,0 +1,29 @@
+header {
+  width: 100%;
+  grid-column: 1 / -1;
+  height: 80px;
+  nav {
+    padding: 15px 15px 10px 15px;
+    grid-column: 1 / -1;
+    background-color: $secondary-color-dark;
+    color: $third-color-light;
+    p {
+      grid-column: 1 / 2;
+    }
+    ul {
+      grid-template-columns: repeat(4, 25%) !important;
+      grid-column: 2 / -1;
+    }
+  }
+  h2 {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2em;
+  }
+}
+
+.navList {
+  list-style-type: none;
+  justify-self: end;
+}

@@ -1,0 +1,37 @@
+$primary-color-dark: #240c3a;
+$primary-color: #501b80;
+$primary-color-light: #ae74e2;
+
+$secondary-color-dark: #316300;
+$secondary-color: #97ff30;
+$secondary-color-light: #dbffb8;
+
+$third-color-dark: #170952;
+$third-color: #3e18dc;
+$third-color-light: #ab99f4;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  line-height: 1.6;
+  font-weight: 300;
+  background-color: $third-color-dark;
+  color: white;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
